@@ -3,7 +3,7 @@ name: Deploy Static Site to Render
 on:
   push:
     branches:
-      - qa
+      - staging
 
 jobs:
   deploy:
